@@ -1,0 +1,28 @@
+# Dependencies
+node_modules/
+
+# Environment variables
+.env
+
+# Build output
+dist/
+build/
+coverage/
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor folders (optional)
+.vscode/
+.idea/
+
+# Explicit project paths (safety)
+college-exam-seat-planner/Backend/node_modules/
+college-exam-seat-planner/Frontend/node_modules/
