@@ -32,7 +32,7 @@ function App() {
 
   // Fetch classrooms from the backend when the app loads
   useEffect(() => {
-    fetch("http://localhost:5000/api/classrooms")
+    fetch("https://shawshank-redemp.onrender.com")
       .then((res) => res.json())
       .then((data) => setClassrooms(data))
       .catch((err) => console.error("Error fetching data:", err));

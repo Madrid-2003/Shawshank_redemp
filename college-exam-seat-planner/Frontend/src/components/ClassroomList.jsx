@@ -42,7 +42,7 @@ function ClassroomList({ classrooms, setClassrooms }) {
     if (!window.confirm("Are you sure you want to delete this classroom?")) return;
 
     try {
-      const response = await fetch(`http://localhost:5000/api/classrooms/${id}`, {
+      const response = await fetch(`https://shawshank-redemp.onrender.com/api/classrooms/${id}`, {
         method: "DELETE",
       });
 
